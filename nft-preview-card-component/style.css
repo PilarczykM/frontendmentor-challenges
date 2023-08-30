@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+    --birdie-num-num: #8bacda;
+    --arctic-water: #00fff7;
+
+    --liberty-blue: #0d192b; /*  (main BG) */
+    --cool-balaclavas-are-forever: #14253d; /* (card BG) */
+    --pickled-bluewood: #2f415b; /* (line) */
+    --white: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    /* 1rem = 10px */
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.7rem;
+    background-color: var(--liberty-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--birdie-num-num);
+}
+
+.card {
+    max-width: 35rem;
+    padding: 2rem;
+    background-color: var(--cool-balaclavas-are-forever);
+    border-radius: 1.2rem;
+}
+
+.card .card__container > * {
+    margin: 2rem 0;
+}
+
+.card .card__image {
+    margin-top: 0;
+    border-radius: 1.2rem;
+    overflow: hidden;
+}
+
+.card .card__image img {
+    width: 100%;
+}
+
+.card .card__title {
+    color: var(--white);
+    font-size: 2.4rem;
+}
+
+.card .card__price-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .card__price-container > p {
+    display: flex;
+    gap: .8rem;
+}
+
+.card .card__footer {
+    margin-bottom: 0;
+    padding-top: 2rem;
+    padding-bottom: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.card .card__footer img {
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+}
+
+.card .card__text {
+    font-weight: 300;
+}
+
+.card .card__text span {
+    color: var(--white);
+}
