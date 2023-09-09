@@ -6,7 +6,7 @@ Welcome to my collection of Frontend Mentor challenges! Below, you'll find a lis
 <details>
 <summary>Easy Challenges</summary>
   
-  1. [3-column preview card component](3-column-preview-card-component/README.md) - [Demo](#)
+  1. [3-column preview card component](3-column-preview-card-component/README.md) - [Demo](https://frontendmentor-challenges-3-column-preview-card-component.vercel.app)
      - Description: The challenge is to build out this 3-column preview card component and get it looking as close to the design as possible.
      - Technologies used: HTML, CSS.
      - My Solution: [SOLUTION](3-column-preview-card-component/README.md).
