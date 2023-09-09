@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+:root {
+    /* Primary */
+    --silk-stone: #ce9797;
+    --fiery-salmon: #f96262;
+
+    /* Neutral */
+    --desert-shadow: #413a3a;
+
+    /* Gradients */
+    /* Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%) */
+    --white-gradient: linear-gradient(135deg, #ffffff, #fff5f5);
+
+    /* Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%) */
+    --flamingo-gradient: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.6rem;
+    background: #ffffff;
+    color: var(--silk-stone);
+    background: var(--white-gradient);
+    background-repeat: no-repeat;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coming-soon {
+    max-width: 37.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.coming-soon .coming-soon__logo {
+    padding: 3rem;
+    width: 16rem;
+}
+
+.coming-soon .coming-soon__text-wrapper {
+    margin-top: 7rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.coming-soon .coming-soon__title {
+    letter-spacing: 1rem;
+    font-size: 4.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.coming-soon .coming-soon__title--dark {
+    display: block;
+    font-weight: 500;
+    color: #000;
+}
+
+.coming-soon .coming-soon__paragraph {
+    padding: 0 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.coming-soon .coming-soon__form {
+    margin: 0 1.5rem;
+    border: 1px solid var(--silk-stone);
+    border-right: 0;
+    border-radius: 3.5rem;
+    height: 5rem;
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.coming-soon .coming-soon__form input {
+    flex: 1;
+    padding: 0 3rem;
+    border: none;
+    outline: none;
+    color: var(--silk-stone);
+}
+
+.coming-soon .coming-soon__form input::placeholder {
+    color: hsla(0, 36%, 70%, 0.5);
+}
+
+.coming-soon .coming-soon__form a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 7rem;
+    border-radius: 3.5rem;
+    background: var(--flamingo-gradient);
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1440px) {
+    .coming-soon {
+        max-width: 144rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .coming-soon .coming-soon__logo {
+        margin-top: 8rem;
+        grid-row: 1;
+        grid-column: 1;
+        width: 24rem;
+    }
+
+    .coming-soon .coming-soon__text-wrapper {
+        grid-row: 1;
+        grid-column: 1;
+        margin-top: 20rem;
+        text-align: left;
+        padding: 0 3rem;
+        max-width: 48rem;
+    }
+}
