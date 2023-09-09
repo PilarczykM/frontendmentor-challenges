@@ -25,6 +25,11 @@ Welcome to my collection of Frontend Mentor challenges! Below, you'll find a lis
      - Description: The challenge is to build out this results summary component and get it looking as close to the design as possible.
      - Technologies used: HTML, CSS.
      - My Solution: [SOLUTION](results-summary-component/README.md).
+    
+  5. [Four card feature section](four-card-feature-section/README.md) - [Demo](#)
+     - Description: The challenge is to build out this feature section and get it looking as close to the design as possible.
+     - Technologies used: HTML, CSS.
+     - My Solution: [SOLUTION](four-card-feature-section/README.md).
 
 <!-- Add more easy challenges as needed -->
 </details>
