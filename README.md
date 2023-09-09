@@ -30,6 +30,11 @@ Welcome to my collection of Frontend Mentor challenges! Below, you'll find a lis
      - Description: The challenge is to build out this feature section and get it looking as close to the design as possible.
      - Technologies used: HTML, CSS.
      - My Solution: [SOLUTION](four-card-feature-section/README.md).
+  6. [Apparel-coming-soon](base-apparel-coming-soon/README.md) - [Demo](#)
+     - Description: The challenge is to build out this coming soon page and get it looking as close to the design as possible.
+     - Technologies used: HTML, CSS.
+     - My Solution: [SOLUTION](base-apparel-coming-soon/README.md).
+    
 
 <!-- Add more easy challenges as needed -->
 </details>
