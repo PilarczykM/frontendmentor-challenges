@@ -36,6 +36,11 @@ Welcome to my collection of Frontend Mentor challenges! Below, you'll find a lis
      - Technologies used: HTML, CSS.
      - My Solution: [SOLUTION](https://github.com/PilarczykM/FM-base-apparel-coming-soon).
     
+  7. [Social-proof-section](https://github.com/PilarczykM/FM-social-proof-section) - [Demo](https://fm-social-proof-section-psi.vercel.app/)
+     - Description: The challenge is to build out this coming soon page and get it looking as close to the design as possible.
+     - Technologies used: HTML, Tailwind.
+     - My Solution: [SOLUTION](https://github.com/PilarczykM/FM-social-proof-section).
+    
 
 <!-- Add more easy challenges as needed -->
 </details>
