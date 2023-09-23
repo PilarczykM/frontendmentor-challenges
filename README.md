@@ -37,17 +37,21 @@ Welcome to my collection of Frontend Mentor challenges! Below, you'll find a lis
      - My Solution: [SOLUTION](https://github.com/PilarczykM/FM-base-apparel-coming-soon).
     
   7. [Social-proof-section](https://github.com/PilarczykM/FM-social-proof-section) - [Demo](https://fm-social-proof-section-psi.vercel.app/)
-     - Description: The challenge is to build out this coming soon page and get it looking as close to the design as possible.
+     - Description: The challenge is to build out this social proof section and get it looking as close to the design as possible.
      - Technologies used: HTML, Tailwind.
      - My Solution: [SOLUTION](https://github.com/PilarczykM/FM-social-proof-section).
-    
-
-<!-- Add more easy challenges as needed -->
 </details>
 
 ## Medium Challenges
 
-<!-- Add more medium challenges as needed -->
+<details>
+  <summary>Medium Challenges</summary>
+  
+  1. [FM-clipboard-landing-page](https://github.com/PilarczykM/FM-clipboard-landing-page/) - [Demo](https://fm-clipboard-landing-page-taupe.vercel.app/)
+     - Description: The challenge is to build out this landing page and get it looking as close to the design as possible.
+     - Technologies used: HTML, SCSS
+     - My Solution: [SOLUTION](https://github.com/PilarczykM/FM-clipboard-landing-page/).
+</details>
 
 ## Hard Challenges
 
