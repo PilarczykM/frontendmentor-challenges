@@ -47,10 +47,14 @@ Welcome to my collection of Frontend Mentor challenges! Below, you'll find a lis
 <details>
   <summary>Medium Challenges</summary>
   
-  1. [FM-clipboard-landing-page](https://github.com/PilarczykM/FM-clipboard-landing-page/) - [Demo](https://fm-clipboard-landing-page-taupe.vercel.app/)
+  1. [FM-clipboard-landing-page](https://github.com/PilarczykM/FM-clipboard-landing-page/) - [Demo](https://fm-huddle-landing-page-with-curved-sections.vercel.app)
      - Description: The challenge is to build out this landing page and get it looking as close to the design as possible.
      - Technologies used: HTML, SCSS
      - My Solution: [SOLUTION](https://github.com/PilarczykM/FM-clipboard-landing-page/).
+  2. [FM-huddle-landing-page-with-curved-sections](https://github.com/PilarczykM/FM-huddle-landing-page-with-curved-sections/) - [Demo](https://fm-huddle-landing-page-with-curved-sections.vercel.app)
+     - Description: The challenge is to build out this landing page and get it looking as close to the design as possible.
+     - Technologies used: HTML, SCSS
+     - My Solution: [SOLUTION](https://github.com/PilarczykM/FM-huddle-landing-page-with-curved-sections/).
 </details>
 
 ## Hard Challenges
